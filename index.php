@@ -3,6 +3,8 @@
     include_once (dirname(__FILE__)).'/./controllers/input_controller.php';
     $searches = getInputs();
 
+    echo "Hello World!";
+
     function showRecentSearches() {
         $searches = getInputs();
         for ($i= sizeof($searches)-1; $i>-1; $i--) { 
